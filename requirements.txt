@@ -1,0 +1,15 @@
+# Titan OS Requirements
+# Core dependencies for the FreeState Marketing backend system
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Google Sheets integration (optional, for future use)
+# gspread==5.12.0
+# oauth2client==4.1.3
+
+# OpenAI API integration (optional, for future use)
+# openai==1.3.0
+
+# HTTP requests
+# requests==2.31.0
