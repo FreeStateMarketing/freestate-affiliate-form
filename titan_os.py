@@ -61,7 +61,7 @@ class CommandRegistry:
         if command not in self.commands:
             return {"status": "ERROR", "message": f"Unknown command: {command}"}
 
-        return self.commandscommand
+        return self.commands[command](**kwargs)
 
 
 class TitanOS:
